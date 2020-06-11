@@ -1,7 +1,7 @@
-# final_proyect_Front
-Frontend for a Mvp developed for a real company called Jammer. It is a centralized platform to get in touch Owners, tenants and refurbishment professionals. IT has been developed using React-Redux with typescript and prepros for the CSS
+# Final_proyect_Front
+Final project fom a 1200 hours bootcamp in web development in https://codehouse.academy/
 
-This project was bootstrapped with Create React App.
+This is the frontend for a Mvp developed for a real company called Jammer. It is a centralized platform to get in touch Owners, tenants and refurbishment professionals. IT has been developed using React-Redux with typescript and Bootstrap and prepros for the CSS
 
 Available Scripts
 In the project directory, you can run:
