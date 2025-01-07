@@ -1,41 +1,71 @@
 # Jammer MVP Frontend
-Final project fom a 1200 hours bootcamp in web development in https://codehouse.academy/
+Frontend for Final project from a 1200 hours bootcamp in web development in https://codehouse.academy/
 
-This is the fronted for a Mvp developed for a real company called Jammer. This project was developed in the last 3 weeks of the bootcamp. It is a centralized platform to get in touch Owners, tenants and refurbishment professionals.
+Jammer MVP is a centralized platform designed to connect property owners, tenants, and refurbishment professionals. This repository contains the frontend application built with React, Redux, TypeScript, and Bootstrap.
 
-IT has been developed using React-Redux with typescript and Bootstrap and prepros for the CSS
+## Features
 
-# Available Scripts
-In the project directory, you can run:
+- **Responsive UI:** Provides an intuitive interface for all user roles.
+- **State Management:** Utilizes Redux for efficient state handling.
+- **Type Safety:** Implements TypeScript for robust type checking.
+- **Property Listings:** Displays properties with relevant details.
+- **Real-Time Chat:** Integrates with Firebase for instant messaging.
+- **Document Management:** Allows users to upload and view documents related to properties.
 
-# npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+- **React:** JavaScript library for building user interfaces.
+- **Redux:** State management library.
+- **TypeScript:** Superset of JavaScript for type safety.
+- **Bootstrap:** CSS framework for responsive design.
+- **Firebase:** Backend-as-a-Service for real-time features.
 
-# npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+## Installation and Setup
 
-# npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/JesusFernandez86/JammerMVP-Front.git
+   cd JammerMVP-Front
+   ```
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-See the section about deployment for more information.
+3. **Configure environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add the necessary Firebase and API endpoint configurations.
 
-# npm run eject
-Note: this is a one-way operation. Once you eject, you can’t go back!
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   The application should now be running on `http://localhost:3000`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions are welcome! Please follow these steps:
 
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request detailing your changes.
 
-Learn More
-You can learn more in the Create React App documentation.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or suggestions, please contact [your-email@example.com](mailto:your-email@example.com).
